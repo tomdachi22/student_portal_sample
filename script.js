@@ -10,7 +10,7 @@ async function checkGrades() {
     const studentId = studentIdInput.value.trim();
 
     if (studentId === "") {
-        gradeDisplay.innerHTML = '<p class="error">Please enter a Student ID.</p>';
+        gradeDisplay.innerHTML = '<p class="error">Please enter a Student Name.</p>';
         return;
     }
 
@@ -94,7 +94,7 @@ async function checkGrades() {
             gradeDisplay.innerHTML = gradesHtml;
 
         } else {
-            gradeDisplay.innerHTML = '<p class="error">Student ID not found. Please try again.</p>';
+            gradeDisplay.innerHTML = '<p class="error">Student Data not found. Please try again.</p>';
         }
 
     } catch (error) {
