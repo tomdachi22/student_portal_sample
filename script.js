@@ -1,7 +1,7 @@
 // REPLACE WITH YOUR ACTUAL GOOGLE SHEET INFO
 const SPREADSHEET_ID = '1rxoUGHDizLa0hqvmYwhAKnh2Zo5tcDVtWi7UwX_d4WY'; // The ID from your Google Sheet URL
 const API_KEY = 'AIzaSyA6j8OCOi_Jbp-AHlEbG44_Yp91HlK4kBI';       // The API Key you generated in Google Cloud Console
-const SHEET_NAME = 'Sheet1';               // The name of your sheet (e.g., 'Sheet1')
+const SHEET_NAME = 'Sheet2';               // The name of your sheet (e.g., 'Sheet1')
 const RANGE = 'A:I';                       // The range of columns you want to fetch (e.g., 'A:G' for columns A through G)
 
 async function checkGrades() {
@@ -102,3 +102,4 @@ async function checkGrades() {
         gradeDisplay.innerHTML = '<p class="error">An error occurred while fetching grades. Please check the console for details.</p>';
     }
 }
+
